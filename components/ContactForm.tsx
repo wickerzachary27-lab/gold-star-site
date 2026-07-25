@@ -54,11 +54,18 @@ export default function ContactForm() {
           </div>
           <div>
             <h3 className="font-display text-2xl font-bold text-charcoal">
-              Message sent.
+              Almost there &mdash; press send.
             </h3>
             <p className="mt-3 text-charcoal/70 leading-relaxed">
-              Your email client should have opened with your request. If it
-              didn&rsquo;t, call Dylan directly at{" "}
+              Your email client should have opened with your request ready to
+              go. If it didn&rsquo;t, email{" "}
+              <a
+                href="mailto:dylan@goldstarplumbingllc.com"
+                className="font-semibold text-charcoal underline decoration-gold underline-offset-4 decoration-2 hover:text-gold"
+              >
+                dylan@goldstarplumbingllc.com
+              </a>{" "}
+              or call Dylan directly at{" "}
               <a
                 href="tel:5415255547"
                 className="font-semibold text-charcoal underline decoration-gold underline-offset-4 decoration-2 hover:text-gold"
