@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative min-h-screen w-full overflow-hidden bg-charcoal">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=2400&q=80"
+        src="/images/hero-plumber-pipes.jpg"
         alt="Plumber working on copper pipes"
         fill
         priority
